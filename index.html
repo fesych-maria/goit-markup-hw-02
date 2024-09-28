@@ -8,6 +8,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
@@ -21,12 +23,12 @@
   <body>
     <header class="page-header">
       <nav>
-        <a href="./index.html" class="black-logo-main"
-          ><span class="web-part-logo">Web</span>Studio</a
+        <a href="./index.html" class="logo-main"
+          >Web<span class="studio-black-logo">Studio</span></a
         >
         <ul class="link-list">
           <li class="studio-link">
-            <a href="" class="page-link">Studio</a>
+            <a href="./index.html" class="page-link">Studio</a>
           </li>
           <li>
             <a href="" class="page-link">Portfolio</a>
@@ -36,10 +38,12 @@
           </li>
         </ul>
       </nav>
-      <address>
-        <ul class="link-list">
+      <address class="link-list">
+        <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+            <a href="mailto:info@devstudio.com" class="mail-link"
+              >info@devstudio.com</a
+            ><br />
           </li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a><br /></li>
         </ul>
@@ -53,32 +57,32 @@
         <button type="button" class="order-button">Order Service</button>
       </section>
       <section class="studio-features">
-        <h2>Example</h2>
+        <h2 class="feature-title">Example</h2>
         <ul>
           <li>
             <h3 class="feature-name">Strategy</h3>
-            <p>
+            <p class="feature-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
             <h3 class="feature-name">Punctuality</h3>
-            <p>
+            <p class="feature-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
             <h3 class="feature-name">Diligence</h3>
-            <p>
+            <p class="feature-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
             <h3 class="feature-name">Technologies</h3>
-            <p>
+            <p class="feature-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -86,9 +90,9 @@
         </ul>
       </section>
       <section class="team-members">
-        <h2 class="team-heading">Our Team</h2>
+        <h2 class="team-title">Our Team</h2>
         <ul>
-          <li>
+          <li class="photo-base">
             <img
               src="./images/img-3.jpg"
               alt="Mark Guerrero"
@@ -96,9 +100,9 @@
               height="260"
             />
             <h3 class="member-name">Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="job-position">Product Designer</p>
           </li>
-          <li>
+          <li class="photo-base">
             <img
               src="./images/img-2.jpg"
               alt="Mark Guerrero"
@@ -106,9 +110,9 @@
               height="260"
             />
             <h3 class="member-name">Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="job-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="photo-base">
             <img
               src="./images/img-1.jpg"
               alt="Mark Guerrero"
@@ -116,9 +120,9 @@
               height="260"
             />
             <h3 class="member-name">Camila Garcia</h3>
-            <p>Marketing</p>
+            <p class="job-position">Marketing</p>
           </li>
-          <li>
+          <li class="photo-base">
             <img
               src="./images/img.jpg"
               alt="Mark Guerrero"
@@ -126,12 +130,12 @@
               height="260"
             />
             <h3 class="member-name">Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="job-position">UI Designer</p>
           </li>
         </ul>
       </section>
       <section class="projects-examples">
-        <h2 class="projects-heading">Our Portfolio</h2>
+        <h2 class="projects-title">Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -197,8 +201,8 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a href="./index.html" class="white-logo-main"
-        ><span class="web-part-logo">Web</span>Studio</a
+      <a href="./index.html" class="logo-main"
+        >Web<span class="studio-white-logo">Studio</span></a
       >
       <p class="advice">
         Increase the flow of customers and sales for your business with digital
