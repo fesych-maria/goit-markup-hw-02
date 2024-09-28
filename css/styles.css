@@ -92,6 +92,7 @@ a {
   font-size: 20px;
   color: #2e2f42;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .feature-description,
@@ -126,15 +127,13 @@ a {
   text-align: center;
   font-weight: 800;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.02em;
 }
 
 .member-name {
   text-align: center;
-  font-size: 20px;
-  line-height: 1.2;
 }
 
 .job-position {
