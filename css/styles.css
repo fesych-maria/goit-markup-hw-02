@@ -27,20 +27,25 @@ a {
   color: #2e2f42;
 }
 
-.logo-main {
+.black-logo-main,
+.white-logo-main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.48px;
-  color: #2e2f42;
   text-transform: uppercase;
 }
 
-.web-logo {
+.black-logo-main {
+  color: #2e2f42;
+}
+
+.web-part-logo {
   color: #4d5ae5;
 }
 
-.link-list a:hover {
+.link-list a:hover,
+.link-list a:focus {
   color: #404bbf;
 }
 
@@ -48,7 +53,8 @@ a {
   color: #404bbf;
 }
 
-.order-service {
+.order-service,
+.page-footer {
   background-color: #2e2f42;
 }
 
@@ -72,4 +78,45 @@ a {
   text-transform: capitalize;
   font-weight: 500;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.feature-name,
+.member-name,
+.project-name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.studio-features p,
+.feature-title,
+.project-name,
+.project-type {
+  text-align: left;
+}
+
+.team-members {
+  background-color: #f4f4fd;
+}
+
+.team-heading,
+.projects-heading {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.member-name,
+.team-members p {
+  text-align: center;
+}
+
+.white-logo-main {
+  color: #f4f4fd;
+}
+
+.advice {
+  color: #f4f4fd;
+  text-align: left;
 }
