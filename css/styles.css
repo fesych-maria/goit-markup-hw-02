@@ -28,7 +28,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -62,6 +62,7 @@ a {
   color: #ffffff;
   text-transform: capitalize;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .title-for {
@@ -90,6 +91,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
 }
 
 .feature-description,
@@ -97,7 +99,16 @@ a {
 .project-name,
 .project-type {
   text-align: left;
-  line-height: 1.2;
+}
+
+.feature-description,
+.project-type {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.project-name {
+  letter-spacing: 0.02em;
 }
 
 .team-members {
@@ -115,11 +126,17 @@ a {
   text-align: center;
   font-weight: 800;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
-.member-name,
+.member-name {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 .job-position {
   text-align: center;
   font-size: 16px;
