@@ -120,3 +120,7 @@ a {
   color: #f4f4fd;
   text-align: left;
 }
+
+.team-members li {
+  background-color: #ffffff;
+}
